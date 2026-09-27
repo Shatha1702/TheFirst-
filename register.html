@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sweet Cake</title>
+    <link rel="stylesheet" href="../libraries/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../libraries/Font_Awesome/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <div class="nav">
+        <div class="logo">Sweet Cake 🍰</div>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="products.html">المنتجات</a>
+            <a href="cakes.html">الكيكات</a>
+            <a href="about.html">من نحن</a>
+            <a href="contact.html">تواصل</a>
+            <a href="login.html">دخول</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <h1>إنشاء حساب</h1>
+
+    <form id="registerForm">
+        <label for="name">الاسم</label>
+        <input id="name" type="text" required>
+
+        <label for="email">البريد الإلكتروني</label>
+        <input id="email" type="email" required>
+
+        <label for="password">كلمة المرور</label>
+        <input id="password" type="password" minlength="6" required>
+
+        <label for="confirm">تأكيد كلمة المرور</label>
+        <input id="confirm" type="password" minlength="6" required>
+
+        <button class="btn" type="submit">تسجيل</button>
+    </form>
+</main>
+
+<footer>
+    <p>Sweet Cake 🍰 — حلويات بطعم السعادة</p>
+    <p><i class="fa-solid fa-heart"></i> جميع الحقوق محفوظة</p>
+</footer>
+
+<div id="toast"></div>
+
+<script src="../libraries/Bootstrap/jquery.min.js"></script>
+<script src="../libraries/Bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../libraries/WowSlider/wowslider.js"></script>
+<script src="../libraries/Toast/toast.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
